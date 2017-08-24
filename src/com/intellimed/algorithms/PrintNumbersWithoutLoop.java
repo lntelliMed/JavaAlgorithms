@@ -1,3 +1,4 @@
+package com.intellimed.algorithms;
 
 public class PrintNumbersWithoutLoop {
 
