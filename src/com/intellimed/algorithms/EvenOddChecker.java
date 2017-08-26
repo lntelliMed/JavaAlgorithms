@@ -19,11 +19,25 @@ public class EvenOddChecker {
 			System.exit(0);
 		}
 		
+		isEvenMod(readValue);
+		isEvenMultiply(readValue);
+
+	}
+
+	private static void isEvenMod(Integer readValue) {
 		if(readValue % 2 == 0){
-			System.out.println("The number " + readValue + " is even!");
+			System.out.println("The number " + readValue + " is even (using method \"isEvenMod()\"!");
 		} else {
-			System.out.println("The number " + readValue + " is odd!");
+			System.out.println("The number " + readValue + " is odd (using method \"isEvenMod()\"!");
 		}
 	}
 
+	
+	private static void isEvenMultiply(Integer readValue) {
+		if((readValue/2)*2 == readValue){
+			System.out.println("The number " + readValue + " is even (using method \"isEvenMultiply()\"!");
+		} else {
+			System.out.println("The number " + readValue + " is odd (using method \"isEvenMultiply()\"!");
+		}
+	}
 }
