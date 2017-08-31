@@ -1,4 +1,4 @@
-package com.intellimed.algorithms;
+package com.intellimed.secondset;
 
 public class ClockAngle {
 
